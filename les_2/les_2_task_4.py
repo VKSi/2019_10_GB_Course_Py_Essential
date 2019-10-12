@@ -8,8 +8,7 @@
 #           только первые 10 букв в слове.
 
 # Solution:
-my_string = input('Введите строку из нескольких слов, разделенных пробелами: ')
-my_tuple = tuple(my_string.split(' '))
+my_tuple = input('Введите строку из нескольких слов, разделенных пробелами: ').split(' ')
 
 for i, word in enumerate(my_tuple):
     print(f'{i + 1} {word[:11]}')
