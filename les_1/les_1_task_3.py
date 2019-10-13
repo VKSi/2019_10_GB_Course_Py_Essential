@@ -9,7 +9,4 @@
 
 # Solution:
 n = input("Введите любое целое число 'n': ")  # Тип string оставлен намеренно, он нам пока нужен
-nn = int(n + n)
-nnn = int(n + n + n)
-n = int(n)
-print(f"n + nn + nnn = {n + nn + nnn}")
+print(f"{n} + {2 * n} + {3 * n} = {int(n) + int(2 * n) + int(3 * n)}")
