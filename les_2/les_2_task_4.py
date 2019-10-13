@@ -10,5 +10,5 @@
 # Solution:
 my_tuple = input('Введите строку из нескольких слов, разделенных пробелами: ').split(' ')
 
-for i, word in enumerate(my_tuple):
-    print(f'{i + 1} {word[:11]}')
+for i, word in enumerate(my_tuple, 1):
+    print(f'{i} {word[:10]}')
