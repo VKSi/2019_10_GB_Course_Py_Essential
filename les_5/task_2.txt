@@ -1,0 +1,5 @@
+This is the first line
+This is the second line
+There are 7 words in this line
+
+The previous line is empty
