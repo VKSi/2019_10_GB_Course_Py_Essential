@@ -15,7 +15,8 @@
 
 
 class Stationary:
-    title = 'Somewhat'
+    def __init__(self, title= 'Somewhat'):
+        self.title = title
 
     def draw(self):
         print('Запуск отрисовки')
